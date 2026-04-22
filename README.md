@@ -13,6 +13,7 @@ A static library for NURBS (Non-Uniform Rational B-Splines) curve and surface ge
      Generates a NURBS mesh surface through four boundary curves, based on COONS and 3D curve modules.
 
 3. Compilation & Usage
+
    3.1 Static Library Compilation
      Compile the source code into a static link library using a Fortran compiler (Intel Fortran/GFortran):
        Intel Fortran: /libs:static option
@@ -23,10 +24,10 @@ A static library for NURBS (Non-Uniform Rational B-Splines) curve and surface ge
      2. Call the two exported functions directly (supports Fortran program call, C/C++ cross language call with alias )
      3. Input geometric parameter - Get output curve/mesh coordinates
 
-4. Dependencies
+5. Dependencies
    Fortran 90+ standard
 
-5. Notes
+6. Notes
    All geometric coordinates use 3D double-precision floating-points
    Array dimension must be pre-allocated before function calls
    Ensure input point set are vaild 3D coordinate to avoid calculation exceptions
