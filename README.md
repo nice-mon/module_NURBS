@@ -1,4 +1,4 @@
-# module_NURBS.lib
+# module_NURBS
 
 A static library for NURBS (Non-Uniform Rational B-Splines) curve and surface generation, providing core bridge curve and through-curve mesh calculation functions.
 
